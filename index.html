@@ -6,65 +6,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CriticalCare</title>
     <link rel="stylesheet" href="css/bootstrap.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/index.css" />
+
+
+    <!-- Favicons -->
+  <link href="images/cc logo.png" rel="icon">
+  <link href="images/cc logo.png" rel="apple-touch-icon">
+
+
   </head>
   <body>
-    <div class="alert alert-warning alert-dismissible fade show" role="alert">
-      <strong
-        >Hello Customers! <i class="fa-solid fa-face-grin-hearts"></i
-      ></strong>
-      &nbsp; Avail upto 50% OFF on Booking Ambulances by Us
-      <button
-        type="button"
-        class="btn-close"
-        data-bs-dismiss="alert"
-        aria-label="Close"
-      ></button>
-    </div>
-
-    <div id="nav" class=" sticky-top">
+    
+    <div id="nav" class="sticky-top">
       <div class="container">
         <div class="row">
           <div id="logo" class="col-md-4">
-            <img src="images/logo.png" alt="Company Logo" width="70px" />
-            <a href="#">CriticalCare</a>
+            <img src="images/cc logo png.png" alt="Company Logo" width="50px" class="py-1"/>
+            <a href="index.html">CriticalCare</a>
           </div>
-          <div id="menu" class="col-md-8">
-            <ul class="">
+          <div id="menu" class="col-md-8 red-bor d-flex align-items-center">
+            <ul class="black-bor d-flex align-items-center justify-content-center ">
               <li><a href="index.html" class="active">Home</a></li>
-              <li><a href="html/services.html">Our Services</a></li>
+              <!-- <li><a href="html/services.html">Our Services</a></li> -->
            
-              <li><a href="#footer">Contact Us</a></li>
+              <li><a href="tel:766-875-8802"><i class="fa-solid fa-phone-volume"></i> 7668758802</a></li>
+              <li><a href="tel:787-056-5464"><i class="fa-solid fa-phone-volume"></i> 7870565464</a></li>
             </ul>
           </div>
         </div>
       </div>
     </div>
 
-    <div id="banner" class="">
+    <div id="banner" class="initiate">
       <div class="container ">
         <div class="row">
           <div class="col-md-8 section">
-            <p class="banner-title">Hii Welcome to</p>
+            <p class="banner-title">Fastest Ambulance service</p>
             <p class="banner-title" style="font-weight: bold">
-              CriticalCare!👋
+              in Delhi NCR
             </p>
-            <p class="banner-message lead">
-              Call Ambulance at any location under 10 Minutes
+            <p class="banner-message lead px-3">
+              Call Affordable Ambulance from Anywhere
               <i class="fa-solid fa-clock"></i>
             </p>
             <div class="banner-btn">
-              <button type="button" class="btn btn-lg">
+              <a type="button" class="btn btn-lg call-btn" href="#typeOfAmbulance">
                 <i class="fa-solid fa-truck-medical"></i> Call Ambulance
-              </button>
-              <button type="button" class="btn btn-lg">
-                <i class="fa-solid fa-id-card"></i> Register your Ambulance
-              </button>
+              </a>
+              <a type="button" class="btn btn-lg" href="tel:787-056-5464"><i class="fa-solid fa-phone-volume"></i> Call 7870565464</a> 
+                
+              
+              
             </div>
           </div>
         </div>
       </div>
     </div>
+
+
+
+    <div id="typeOfAmbulance" class=" container-fluid display py-4 red-bor">
+      <h4 class=" type-head text-center">Please Choose Type of Ambulance</h4>
+      <div class="boxes row">
+
+        <div class="box blue-bor">
+          <img src="images/BLS.png" alt="" class="img-fluid black-bor">
+          <a class="btn btn-success m-2 call">Basic Life Support Ambulance</a>
+        </div>
+
+        <div class="box blue-bor">
+          <img src="images/Emergency.png" alt="" class="img-fluid black-bor">
+          <a class="btn btn-success m-2 call">ICU Ambulance</a>
+        </div>
+
+        <div class="box blue-bor">
+          <img src="images/dead body ambulances.png" alt="" class="img-fluid black-bor">
+          <a class="btn btn-success m-2 call">Deadbody Ambulance</a>
+        </div>
+
+        <div class="box blue-bor">
+          <img src="images/outstation ambulances.png" alt="" class="img-fluid black-bor">
+          <a class="btn btn-success m-2 call">Outstation Ambulance</a>
+        </div>
+
+      </div>
+
+    
+   
+  
+   
+    </div>
+
 
     <div id="app" class="">
       <div class="container ">
@@ -93,7 +125,7 @@
               </div>
               <div class="col-12 d-flex justify-content-center">
                 <button type="button" class="btn btn-lg">
-                  <i class="fa-solid fa-download"> </i> Download the App
+                   <a href="launching-soon.html"><i class="fa-solid fa-download"> </i> Download the App</a>
                 </button>
               </div>
             </div>
@@ -129,13 +161,13 @@
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="10000">
 
-      <div id="" class=" testimonials">
-        <div class="container ">
+      <div id="" class="testimonials">
+        <div class="container">
           <div class="row">
             <div class="col-md-4 ">
               <img src="images/sudhanshu.jpg" alt="" class="img-fluid">
-              <blockquote class="blockquote mb-0">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, numquam.
+              <blockquote class="blockquote">
+                <p>I can't thank the team at CriticalCare enough for their quick response and compassionate care when my loved one had a medical emergency. They were professional, efficient, and made us feel comforted during a stressful time. We are so grateful for their help.
                 </p>
                 <div class="blockquote-footer">By<cite title="Source Title"> Sudhanshu Smith (B.tech, IIT Delhi)</cite></div>
               </blockquote>
@@ -144,7 +176,7 @@
             <div class="col-md-4 ">
               <img src="images/women1.jpg" alt="" class="img-fluid">
               <blockquote class="blockquote mb-0">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, numquam.</p>
+                <p>As a healthcare professional, I have had the opportunity to work with many ambulance services. CriticalCare stands out for their exceptional level of care and attention to detail. They go above and beyond to ensure the safety and comfort of their patients. I highly recommend their services.</p>
                 <div class="blockquote-footer">By<cite title="Source Title"> Neha Raj (Phd, Aiims Jodhpur)</cite></div>
               </blockquote>
             </div>
@@ -152,7 +184,7 @@
             <div class="col-md-4 ">
               <img src="images/women2.jpeg" alt="" class="img-fluid">
               <blockquote class="blockquote mb-0">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, numquam.</p>
+                <p>I have used CriticalCare Healthcare and Ambulance Service multiple times and have always been impressed with their professionalism and dedication to their patients. The staff are kind, knowledgeable, and always go the extra mile to ensure a positive experience. Thank you for your exceptional service!</p>
                 <div class="blockquote-footer">By<cite title="Source Title"> Pooja Kumari (B.tech, IIT Madras)</cite></div>
               </blockquote>
             </div>
@@ -176,7 +208,7 @@
             <div class="col-md-4 ">
               <img src="images/men1.jpeg" alt="" class="img-fluid">
               <blockquote class="blockquote mb-0">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, numquam.</p>
+                <p>I was in a car accident and needed immediate medical attention. The team at CriticalCare responded quickly and provided top-notch care. They made sure I was comfortable and kept me informed every step of the way. I am so grateful for their help and highly recommend their services.</p>
                 <div class="blockquote-footer">By<cite title="Source Title"> Aakash Singh (B.tech, NIT Rourkela)</cite></div>
               </blockquote>
             </div>
@@ -184,7 +216,7 @@
             <div class="col-md-4 ">
               <img src="images/women3.jpg" alt="" class="img-fluid">
               <blockquote class="blockquote mb-0">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, numquam.</p>
+                <p>As someone who has a chronic medical condition, I rely on CriticalCare Healthcare Service for transportation to and from medical appointments. The team is always punctual, respectful, and goes out of their way to make sure I am comfortable during the ride. I am so grateful to have such reliable and compassionate care.</p>
                 <div class="blockquote-footer">By<cite title="Source Title"> Priya Singh (Housewife)</cite></div>
               </blockquote>
             </div>
@@ -192,7 +224,7 @@
             <div class="col-md-4 ">
               <img src="images/men2.webp" alt="" class="img-fluid">
               <blockquote class="blockquote mb-0">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, numquam.</p>
+                <p>My uncle got a heart attack suddenly at night and my mind got stuck on what to do at that time and 108 number was not working. I googled for ambulance and came through this website and they suddenly sent an ambulance at my location and it saved my uncle's life.</p>
                 <div class="blockquote-footer">By<cite title="Source Title"> Aman Kumar (B.tech, NIT Jamshedpur)</cite></div>
               </blockquote>
             </div>
@@ -217,7 +249,7 @@
             <div class="col-md-4 ">
               <img src="images/men3.jpg" alt="" class="img-fluid">
               <blockquote class="blockquote mb-0">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, numquam.</p>
+                <p>I live in Karol Bagh Market, On the day time my sister slipped in the bathroom, Instantly I searched on Google for Ambulance and call on this website and they sent ambulance in just 10 minutes in such a high traffic place with their great location integrate emergency response system. You are doing great guys, go ahead.</p>
                 <div class="blockquote-footer">By<cite title="Source Title"> Imetyaj Ansari (M.tech, Howard)</cite> 
                 </div>
               
@@ -229,7 +261,7 @@
             <div class="col-md-4 ">
               <img src="images/women4.jpg" alt="" class="img-fluid">
               <blockquote class="blockquote mb-0">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, numquam.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque magni optio ab voluptate accusantium tempora vero dignissimos consectetur veritatis magnam reprehenderit dolores odio, voluptates eos quidem vitae labore architecto, necessitatibus atque nulla repellat provident? Eum ex maiores ad nemo. Dolorem!</p>
                 <div class="blockquote-footer">By<cite title="Source Title"> Ananya Tiwari (Student, Allen)</cite></div>
               </blockquote>
             </div>
@@ -237,7 +269,7 @@
             <div class="col-md-4 ">
               <img src="images/men4.jpg" alt="" class="img-fluid">
               <blockquote class="blockquote mb-0">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, numquam.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid ex natus, sunt qui corrupti provident adipisci culpa. Perspiciatis quam expedita placeat, dicta sit ad cupiditate sunt deleniti rerum consectetur repudiandae adipisci laborum reiciendis hic accusamus aliquam debitis voluptas accusantium aut.</p>
                 <div class="blockquote-footer">By<cite title="Source Title"> Himanshu (B.tech, IIT Delhi)</cite></div>
               </blockquote>
             </div>
@@ -265,24 +297,25 @@
       <div class="container ">
         <div class="row">
           <div class="col-md-4 section">
-            <h4>Subscribe to Our Newsletter!</h4>
-            <div class="mt-4 mb-3">
+            <h4>Subscribe to Our <br> Newsletter!</h4>
+            <a class="btn btn-outline-success my-3 subscribe" href="subscribe-form.html">Subscribe</a>
+            <!-- <div class="mt-4 mb-3">
               <label for="exampleFormControlInput1" class="form-label">Email address</label>
               <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
               <a href=""><i class="fa-solid fa-paper-plane mx-2"></i></a>
-              <!-- <button class="btn btn-success">Subscribe</button> -->
-            </div>
+              
+            </div> -->
             
           </div>
           <div class="col-md-4 section">
             <h4>Important Links</h4>
                 <ul class="mt-3 ">
                   <li><a href="index.html">Home</a></li>
-                  <li><a href="services.html">Our Services</a></li>
+                  <!-- <li><a href="services.html">Our Services</a></li> -->
                  
-                  <li><a href="#footer">Contact Us</a></li>
-                  <li><a href="">Privacy Policy</a></li>
-                  <li><a href="">Terms of Use</a></li>
+                  <li><a href="https://wa.me/+917870565464">Contact Us</a></li>
+                  <li><a href="privacypolicy.html">Privacy Policy</a></li>
+                  <li><a href="termsofuse.html">Terms of Use</a></li>
                 </ul>  
           </div>
           
@@ -290,7 +323,7 @@
           <div class="col-md-4 section">
             <h4>Our Address</h4>
             <div class="address"></div>
-            <Hauz>IIT Delhi <br> Hauz khas, New Delhi - 110016</p>
+            <Hauz>IIT Delhi, Hauz khas, New Delhi - 110016</p>
           </div>
         </div>
       </div>
@@ -300,7 +333,7 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-6 d-flex align-items-center justify-content-center">
-        <p>Copyright&#169;CriticalCare.com</p>
+        <p>Copyright&#169;thecriticalcare.com</p>
       </div>
       <div id="social-icons" class="col-sm-6 d-flex align-items-center justify-content-center">
         <a href="https://wa.me/+917870565464"><i class="fa-brands fa-whatsapp-square"></i></a>
@@ -317,6 +350,7 @@
 
   
 
+    <script src="js/index.js"></script>
     <script src="js/jquery.js"></script>
     <script src="js/popper.js"></script>
     <script src="js/fontawesome.js"></script>
